@@ -57,7 +57,7 @@ TARGET_DEVICES += duzun-dm06
 
 define Device/gl-mt300n-v2
   DTS := GL-MT300N-V2
-  IMAGE_SIZE := 16064k
+  IMAGE_SIZE := 32448k
   DEVICE_TITLE := GL-iNet GL-MT300N-V2
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
   IMAGE/sysupgrade.bin := append-kernel | append-rootfs | pad-rootfs | append-gl-metadata | check-size $$$$(IMAGE_SIZE)
