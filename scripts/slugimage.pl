@@ -1049,7 +1049,7 @@ if (defined $little)  {
 }
 
 if (defined $fatflash)  {
-    $flash_len = 0x02000000;
+    $flash_len = 0x01000000;
     map {
 	if (($_->{'name'} eq 'FIS directory') or
 	    ($_->{'name'} eq 'Loader config') or
